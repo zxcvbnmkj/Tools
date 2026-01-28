@@ -6,6 +6,11 @@
 python dir_tree.py /Users/zl/sphinx_demo
 ```
 ## md2word
+- 点击[链接](https://github.com/jgm/pandoc/blob/main/INSTALL.md)下载 pandoc 软件，并将该软件的路径 `C:\Program Files\Pandoc` 添加到环境变量中。最后请安装以下两个 python 库：
+```
+pip install pypandoc
+pip install python-docx
+```
 - 如果遇到以下报错，是因为 word 文件当前处于打开状态，把它关闭后再次运行即可
 ```txt
 Traceback (most recent call last):
